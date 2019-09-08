@@ -1,0 +1,24 @@
+{
+  "name": "polar-backend-shared",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burtonator/polar-backend-shared.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/burtonator/polar-backend-shared/issues"
+  },
+  "homepage": "https://github.com/burtonator/polar-backend-shared#readme",
+  "dependencies": {
+    "tsconfig": "^7.0.0",
+    "typescript": "^3.6.2"
+  }
+}
