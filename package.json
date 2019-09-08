@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "npx tsc"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,15 @@
     "url": "https://github.com/burtonator/polar-backend-shared/issues"
   },
   "homepage": "https://github.com/burtonator/polar-backend-shared#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.1",
+    "@types/mocha": "^5.2.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.0"
+  },
   "dependencies": {
     "tsconfig": "^7.0.0",
-    "typescript": "^3.6.2"
+    "typescript": "^3.6.2",
+    "polar-shared-webserver": "1.0.0"
   }
 }
