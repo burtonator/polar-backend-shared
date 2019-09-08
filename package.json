@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "_test": "find . -name *Test.js | xargs mocha --timeout 20000 --exit ",
+    "test": "echo no tests",
     "compile": "npx tsc"
   },
   "repository": {
