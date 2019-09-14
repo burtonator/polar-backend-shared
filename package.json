@@ -1,12 +1,12 @@
 {
   "name": "polar-backend-shared",
-  "version": "1.32.19",
+  "version": "1.32.20",
   "description": "",
   "main": "index.js",
   "scripts": {
     "_test": "find . -name *Test.js | xargs mocha --timeout 20000 --exit ",
     "test": "echo no tests",
-    "compile": "npx tsc"
+    "compile": "tsc"
   },
   "repository": {
     "type": "git",
@@ -27,7 +27,7 @@
     "typescript": "^3.6.3"
   },
   "dependencies": {
-    "polar-shared-webserver": "^1.32.19",
+    "polar-shared-webserver": "^1.32.20",
     "tsconfig": "^7.0.0"
   }
 }
