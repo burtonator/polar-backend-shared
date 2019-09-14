@@ -9,10 +9,6 @@ export class DefaultRewrites {
 
         return [
             {
-                "source": "/webapp/icon.png",
-                "destination": "/icon.png"
-            },
-            {
                 "source": "/",
                 "destination": "/apps/repository/index.html"
             },
